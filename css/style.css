@@ -21,14 +21,32 @@ p {
 }
 
 /* Utility Classes */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+    height: 200vh;
+}
+
 .primary-text {
     color: #93cb52;
 }
 
-.large-heading {
+.text-center {
+    text-align: center;
+}
+
+.l-heading {
     font-size: 4rem;
     margin-bottom: 0.75rem;
     line-height: 1.2;
+}
+
+.m-heading {
+    font-size: 2rem;
+    margin-bottom: 0.6rem;
+    line-height: 1.1;
 }
 
 .lead {
@@ -55,6 +73,25 @@ p {
 .btn:hover {
     background-color: #64942e;
 }
+
+.bg-light {
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+.bg-dark {
+    background-color: #222;
+    color: #fff;
+}
+
+.bg-primary {
+    background-color: #93cb52;
+    color: #fff;
+}
+
+.py-1 { padding: 1.5rem 0; }
+.py-2 { padding: 2rem 0; }
+.py-3 { padding: 3rem 0; }
 
 /* Navbar */
 #navbar {
@@ -115,8 +152,24 @@ h1 a {
     background-color: rgba(0, 0, 0, 0.5);
     /* position: absolute;
     top: 61px;
-    width: 100%; */
+    width: 100%; (left:0; bottom:0; right:0; also work) */
 }
 
+/* Section: What We Do */
+#what .items {
+    display: flex;
+    padding: 1rem;
+}
 
+#what .items .item {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
 
+#what .items .item .fas {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border-radius: 50%;
+    background: #93cb52;
+}
