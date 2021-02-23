@@ -26,7 +26,6 @@ p {
     margin: auto;
     padding: 0 2rem;
     overflow: hidden;
-    height: 200vh;
 }
 
 .primary-text {
@@ -89,6 +88,9 @@ p {
     color: #fff;
 }
 
+.p-1 { padding: 1.5rem; }
+.p-2 { padding: 2rem; }
+.p-3 { padding: 3rem; }
 .py-1 { padding: 1.5rem 0; }
 .py-2 { padding: 2rem 0; }
 .py-3 { padding: 3rem 0; }
@@ -172,4 +174,30 @@ h1 a {
     padding: 0.75rem;
     border-radius: 50%;
     background: #93cb52;
+}
+
+/* Section: Who We Are */
+#who {
+    display: flex;
+}
+
+#who div {
+    flex: 1;
+}
+
+#who .who-img {
+    background: url('../images/people.jpg') no-repeat center center/cover;
+}
+
+#who .who-content h3 {
+    margin-bottom: 1rem;
+}
+
+#who .who-content .list {
+    list-style: none;
+}
+
+#who .who-content .list li {
+    padding: 0.5rem 0;
+    border-bottom: #64942e 1px dotted;
 }
