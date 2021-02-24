@@ -223,7 +223,7 @@ h1 a {
     display: flex;
 }
 
-#contact .contact-form, #contact .map {
+#contact .contact-form, #contact #map {
     flex: 1;
 }
 
