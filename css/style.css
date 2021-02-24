@@ -64,14 +64,19 @@ p {
     transition: 0.6s all ease;
 }
 
+.btn:hover {
+    background-color: #64942e;
+}
+
 .btn-dark {
     background-color: #333;
     color: #fff;
 }
 
-.btn:hover {
-    background-color: #64942e;
+.btn-dark:hover {
+    background-color: #555;
 }
+
 
 .bg-light {
     background-color: #f4f4f4;
@@ -211,4 +216,33 @@ h1 a {
     display: block;
     width: 60%;
     margin: auto;
+}
+
+/* Section: Contact */
+#contact {
+    display: flex;
+}
+
+#contact .contact-form, #contact .map {
+    flex: 1;
+}
+
+#contact .contact-form h2,
+#contact .contact-form p {
+    color: #333;
+    text-align: center;
+}
+
+#contact .contact-form .form-group {
+    margin: 0.75rem;
+}
+
+#contact .contact-form .form-group label {
+    display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
 }
