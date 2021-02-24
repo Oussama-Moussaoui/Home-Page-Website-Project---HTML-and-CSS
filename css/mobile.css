@@ -21,4 +21,54 @@
 /*
     Smartphone View
 */
+@media (max-width: 500px) {
+    /* Navbar */
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    #navbar .logo {
+        text-align: center;
+        margin-bottom: 1.2rem;
+    }
+
+    /* Showcase */
+    #showcase .showcase-content {
+        margin-top: -3rem;
+    }
+
+    /* Who We Are Section */
+    #who {
+        display: block;
+    }
+
+    #who .who-img {
+        display: none;
+    }
+
+    /* Clients section */
+    #clients .our-clients .client img {
+        width: 80%;
+    }
+
+    /* Contact section */
+    #contact {
+        display: block;
+    }
+
+    #contact #map {
+        height: 300px;
+        border-top: 2px #3838ee solid;
+    }
+}
+
+@media (max-height:568px) {
+    .l-heading {
+        font-size: 3rem;
+    }
+
+    .lead {
+        font-size: 1.1rem;
+    }
+}
