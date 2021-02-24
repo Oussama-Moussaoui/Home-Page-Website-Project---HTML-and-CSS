@@ -1,0 +1,24 @@
+/*
+    Tablet View
+*/
+
+/* Small changes on the What We Do section */
+#what .items {
+    flex-direction: column; /* Or you can display them as blocks */
+}
+
+#what .items .item {
+    text-align: left;
+    display: flex;
+}
+
+
+#what .items .item .fas {
+    align-self: center;
+    margin-right: 1.5rem;
+}
+
+/*
+    Smartphone View
+*/
+

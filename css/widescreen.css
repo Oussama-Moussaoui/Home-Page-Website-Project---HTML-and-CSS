@@ -1,0 +1,14 @@
+/* Small changes on the What We Do section */
+#what .items .item {
+    display: flex;
+}
+
+
+#what .items .item .fas {
+    align-self: center;
+}
+
+/* Making the map take more space */
+#contact #map {
+    flex: 2;
+}

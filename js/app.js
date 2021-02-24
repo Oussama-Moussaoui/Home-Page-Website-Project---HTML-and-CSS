@@ -12,7 +12,10 @@ function initMap() {
         zoom: 8,
     });
 
-    const marker = new google.maps.Marker({ position: loc, map:map});
+    const marker = new google.maps.Marker({
+        position: loc,
+        map: map
+    });
 }
 
 // Sticky Navbar Opacity
@@ -27,17 +30,16 @@ window.addEventListener('scroll', function () {
 
 
 // Smooth Scrolling
-$('#navbar a, .btn').on('click', function(event) {
+$('#navbar a, .btn').on('click', function (event) {
     if (this.hash !== '') {
-      event.preventDefault();
-  
-      const hash = this.hash;
-  
-      $('html, body').animate(
-        {
-          scrollTop: $(hash).offset().top - 60
-        },
-        800
-      );
+        event.preventDefault();
+
+        const hash = this.hash;
+
+        $('html, body').animate({
+                scrollTop: $(hash).offset().top - 60
+            },
+            800
+        );
     }
-  });
+});
