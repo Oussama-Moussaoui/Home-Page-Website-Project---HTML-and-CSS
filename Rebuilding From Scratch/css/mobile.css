@@ -1,0 +1,59 @@
+/*
+    Tablet View
+*/
+
+/* Navbar */
+#navbar {
+    flex-direction: column;
+    align-items: center;
+}
+
+#navbar .logo {
+    margin-bottom: 1rem;
+}
+
+/* Section: What We Do */
+#what .items {
+    flex-direction: column;
+}
+
+#what .items .item {
+    display: flex;
+    text-align: left;
+}
+
+#what .items .item i {
+    align-self: center;
+    margin-right: 1rem;
+}
+
+/*
+    Smartphone View
+*/
+@media (max-width: 500px) {
+    /* Navbar */
+    #navbar ul li.delete {
+        display: none;
+    }
+
+    /* Who We Are */
+    #who {
+        display: block;
+    }
+
+    #who .who-img {
+        display: none;
+    }
+
+    /* Contact */
+    #contact {
+        display: block;
+    }
+
+    #contact #map {
+        height: 300px;
+        border-top: 2px #3838ee solid;
+    }
+}
+
+

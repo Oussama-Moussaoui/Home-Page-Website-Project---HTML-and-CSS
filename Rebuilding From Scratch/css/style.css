@@ -39,9 +39,10 @@ h1, h2, h3 {
 
 /* Utility Classes */
 .container {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
     padding: 0 1.5rem;
+    overflow: hidden;
 }
 
 .text-center {
