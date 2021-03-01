@@ -110,13 +110,10 @@
 
     <!-- Section: Contact -->
     <section id="contact">
-        <!-- Our Location -->
-        <div id="map"></div>
-
         <!-- Contact Form -->
-        <div class="contact-form bg-primary">
-            <h2 class="m-heading">Contact Us</h2>
-            <p>Please use the form below to contact us</p>
+        <div class="contact-form bg-primary p3">
+            <h2 class="m-heading text-center">Contact Us</h2>
+            <p class="text-center">Please use the form below to contact us</p>
 
             <form action="">
                 <div class="form-group">
@@ -135,13 +132,18 @@
                     <label for="message">Message</label>
                     <textarea name="message" id="message" placeholder="How can we help you?"></textarea>
                 </div>
-                <input type="submit" class="btn btn-radius btn-dark" value="Send">
+                <div class="form-group">
+                    <input type="submit" class="btn btn-radius btn-dark"  value="Send">
+                </div>
             </form>
         </div>
+
+        <!-- Our Location -->
+        <div id="map"></div>
     </section>
 
     <!-- Main Footer -->
-    <footer id="main-footer">
+    <footer id="main-footer" class="bg-dark">
         <p>Copyright &copy; 2021 - AlphaStock, All Rights Reserved</p>
     </footer>
 
