@@ -72,6 +72,28 @@ h1, h2, h3 {
     margin: 1rem 0;
 }
 
+.bg-primary {
+    background-color: var(--primary-clr);
+    color: #fff;
+}
+
+.bg-light {
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+.bg-dark {
+    background-color: #222;
+    color: #fff;
+}
+
+.p1 { padding: 1rem; }
+.p2 { padding: 1.5rem; }
+.p3 { padding: 2rem; }
+.py1 { padding: 1rem 0; }
+.py2 { padding: 1.5rem 0; }
+.py3 { padding: 2rem 0; }
+
 .btn {
     display: inline-block;
     padding: 0.75rem 1.5rem;
@@ -94,21 +116,6 @@ h1, h2, h3 {
 
 .btn-dark {
     background-color: #333;
-    color: #fff;
-}
-
-.bg-primary {
-    background-color: var(--primary-clr);
-    color: #fff;
-}
-
-.bg-light {
-    background-color: #f4f4f4;
-    color: #222;
-}
-
-.bg-dark {
-    background-color: #222;
     color: #fff;
 }
 
@@ -168,4 +175,20 @@ h1, h2, h3 {
     justify-content: center;
     text-align: center;
     color: #fff;
+}
+
+/* Section: What We Do */
+#what .items {
+    display: flex;
+}
+
+#what .items .item {
+    flex: 1;
+}
+
+#what .items .item i {
+    margin-bottom: 0.75rem;
+    padding: 0.75rem;
+    background: var(--primary-clr);
+    border-radius: 50%;
 }
