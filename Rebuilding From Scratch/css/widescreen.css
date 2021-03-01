@@ -1,0 +1,14 @@
+/* Section: What We Do */
+#what .items .item {
+    display: flex;
+}
+
+#what .items .item i {
+    align-self: center;
+    margin-right: 1rem;
+}
+
+/* Giving the map more space */
+#contact #map {
+    flex: 1.5;
+}
