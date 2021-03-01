@@ -192,3 +192,22 @@ h1, h2, h3 {
     background: var(--primary-clr);
     border-radius: 50%;
 }
+
+/* Section: Who we are */
+#who {
+    display: flex;
+}
+
+#who .who-img,
+#who .who-content {
+    flex: 1;
+}
+
+#who .who-img {
+    background: url('../img/people.jpg') no-repeat center center/ cover;
+}
+
+#who .who-content ul li {
+    padding: 0.5rem 0;
+    border-bottom: var(--snd-clr) 1px dotted;
+}
